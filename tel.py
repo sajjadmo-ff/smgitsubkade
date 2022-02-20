@@ -1,6 +1,5 @@
 from telethon import TelegramClient, events
 from telethon.sync import TelegramClient
-from tkinter.filedialog import Open
 from googlesearch import search
 from bs4 import BeautifulSoup
 import requests
