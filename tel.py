@@ -26,5 +26,5 @@ async def my_event_handler(event):
     link2 = link1['href']
 
     await event.reply(link2)
-client.start()
+client.start(bot_token=bot_token)
 client.run_until_disconnected()
